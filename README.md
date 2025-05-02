@@ -1,47 +1,88 @@
-## CricSheet_Analysis
+# 🌟 CricSheet Analysis
 
-# *Cricsheet*  
-In the Old days, no details and interactive charts could improve the spectator's experience. So, I have devised a plan to interactively check player performance and match details with ease of use.
-This project involves scraping, processing, analyzing, and visualizing cricket match data from Cricsheet. The data includes different match formats (ODI, T20, and Test) and is used to generate insights through SQL queries, Python EDA, and a Power BI dashboard.
+Welcome to **CricSheet Analysis**, a comprehensive project designed to transform raw cricket match data into interactive, insightful, and visually appealing analytics. This project leverages data from [Cricsheet](https://cricsheet.org/) to provide detailed player performance metrics, match insights, and team statistics across various cricket formats (ODI, T20, and Test). Whether you're a cricket enthusiast, analyst, or strategist, this tool makes exploring cricket data intuitive and engaging.
 
-### *Key Features*
-__Data Storage__: Stored structured data in SQL tables for efficient querying.  
-__SQL Analysis__: Wrote 20+ SQL queries to analyze performance metrics, player stats, and match outcomes.  
-__Exploratory Data Analysis (EDA)__: Used Matplotlib, Seaborn, and Plotly for data visualization.  
-__Power BI Dashboard__: Created interactive visualizations to showcase key insights.  
+---
 
-### *Technology Stack*  
-__Database__: MySQL  
-__Query Language__: SQL  
-__Data Analysis & EDA__: Python (Pandas, Matplotlib, Seaborn, Plotly)  
-__Data Visualization__: Power BI  
+## 📋 Project Overview
 
-### *Raw json Files*  
-This folder has all the files that have been converted into .csv files by using the panda's library.  
+In the past, cricket fans and analysts relied on static scorecards and limited data for insights. **CricSheet Analysis** changes that by offering:
+- **Structured Data Storage**: Efficiently organized data in MySQL for seamless querying.
+- **SQL-Powered Insights**: Over 20 SQL queries to extract meaningful metrics like player stats, match outcomes, and team performance.
+- **Exploratory Data Analysis (EDA)**: Rich visualizations using Python libraries (Matplotlib, Seaborn, Plotly) to uncover trends and patterns.
+- **Interactive Dashboards**: A Power BI dashboard and Streamlit applications for dynamic, user-friendly data exploration.
 
-### *General Datasets*  
-This folder contains all the general information that supports further analysis  
+This project combines web scraping, data preprocessing, and advanced visualization to enhance the cricket viewing experience and provide actionable insights.
 
-### *Innings Datasets*  
-This folder contains all the necessary information used for plotting and for further analysis.  
+---
 
-### *Preprocessed General Datasets*  
-This folder contains the preprocessed files that were present in the __General Datasets__ folder that have been processed for the null values and dates.  
+## ✨ Key Features
 
-### *Proprocessed Innings Datasets*  
-This folder contains the preprocessed files that were present in the __Innings Datasets__ folder that have been processed for the null values.  
+- **Data Storage**: Structured MySQL tables for fast and reliable querying.
+- **SQL Analysis**: Extensive queries to analyze player performance, match results, and team statistics.
+- **EDA Visualizations**: Interactive and static plots using Matplotlib, Seaborn, and Plotly to highlight key trends.
+- **Power BI Dashboard**: A visually rich, interactive dashboard for exploring match and player data.
+- **Streamlit Applications**: Web-based apps for table views, custom queries, and visualizations.
 
-### *Pages*  
-This folder contains the files that contribute to the Streamlit Applications (i.e.) Table View, Query View, and Visualizations.  
+---
 
-### *Scripts*  
-This folder contains all the files that were used to extract, convert, and visualize the data from the JSON file.  
+## 🛠️ Technology Stack
 
-### *Cricsheet.pbix*  
-This is an interactive dashboard that can be used to spectate and analyze the match data with much more ease than viewing it in a table format.  
+| **Category**            | **Tools**                              |
+|-------------------------|----------------------------------------|
+| **Database**            | MySQL                                 |
+| **Query Language**      | SQL                                   |
+| **Data Analysis & EDA** | Python (Pandas, Matplotlib, Seaborn, Plotly) |
+| **Data Visualization**  | Power BI, Streamlit                   |
 
-### *Conclusion*  
-This project successfully transforms raw cricket match data from Cricsheet into meaningful insights through SQL queries, Python-based EDA, and Power BI visualizations.  
-By leveraging web scraping, data processing, and interactive dashboards, users can explore player performances, match outcomes, and team statistics in an intuitive way.   
-The combination of structured datasets, preprocessed data, and Streamlit applications makes cricket analytics more accessible and engaging.   
-This project not only enhances the viewing experience but also provides valuable insights for analysts, fans, and strategists.
+---
+
+## 📁 Project Structure
+
+The project is organized into several folders and files, each serving a specific purpose:
+
+### 1. 📂 **Raw JSON Files**
+   - Contains raw JSON files from Cricsheet, converted to `.csv` format using Pandas for easier processing.
+
+### 2. 📂 **General Datasets**
+   - Stores general match information (e.g., teams, dates, venues) to support further analysis.
+
+### 3. 📂 **Innings Datasets**
+   - Includes detailed innings-level data used for plotting and in-depth analysis.
+
+### 4. 📂 **Preprocessed General Datasets**
+   - Processed versions of General Datasets, cleaned for null values and standardized date formats.
+
+### 5. 📂 **Preprocessed Innings Datasets**
+   - Cleaned innings data, with null values handled for consistency.
+
+### 6. 📂 **Pages**
+   - Contains Streamlit application files:
+     - **Table View**: Displays data in tabular format.
+     - **Query View**: Allows users to run custom SQL queries.
+     - **Visualizations**: Interactive plots for data exploration.
+
+### 7. 📂 **Scripts**
+   - Python scripts for:
+     - Extracting data from JSON files.
+     - Converting JSON to CSV.
+     - Preprocessing data.
+     - Generating visualizations.
+
+### 8. 📄 **Cricsheet.pbix**
+   - A Power BI file hosting an interactive dashboard for intuitive match and player analysis.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **MySQL**: For storing and querying data.
+- **Python**: Install required libraries (`pandas`, `matplotlib`, `seaborn`, `plotly`, `streamlit`).
+- **Power BI Desktop**: To view and interact with the `Cricsheet.pbix` dashboard.
+- **Streamlit**: To run the web-based applications.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/cricsheet-analysis.git
