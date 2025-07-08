@@ -1,0 +1,35 @@
+# Core data handling
+
+pandas==2.2.1
+numpy==1.26.4
+
+# Visualization
+
+matplotlib==3.8.3
+seaborn==0.13.2
+plotly==5.22.0
+
+# YAML/JSON parsing for Cric-sheet data
+
+pyyaml==6.0.1
+json5==0.9.24
+
+# Notebook import utility
+
+nbimporter==0.3.4
+
+# Optional: Dashboarding
+
+streamlit==1.35.0
+
+# Optional: Jupyter notebook
+
+notebook==7.1.3
+
+# Optional: Progress bar
+
+tqdm==4.66.2
+
+# Optional: Data validation and testing
+
+great_expectations==0.15.34
