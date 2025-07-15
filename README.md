@@ -1,6 +1,5 @@
-## CricSheet_Analysis
+# *Cricsheet_Analysis*
 
-# *Cricsheet*  
 In the Old days, no details and interactive charts could improve the spectator's experience. So, I have devised a plan to interactively check player performance and match details with ease of use.
 This project involves scraping, processing, analyzing, and visualizing cricket match data from Cricsheet. The data includes different match formats (ODI, T20, and Test) and is used to generate insights through SQL queries, Python EDA, and a Power BI dashboard.
 
